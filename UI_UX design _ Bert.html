@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)https://bert.house/en/services/ui-ux-design -->
+<html class="no-touchevents svg wf-tabletgothicnarrow-n7-active gr__bert_house wf-tabletgothicnarrow-n3-active wf-tabletgothicnarrow-n4-active wf-ffgoodheadlinewebprocon-n9-active wf-tabletgothicnarrow-n6-active wf-tabletgothicnarrow-i4-active wf-tabletgothicnarrow-i7-active wf-tabletgothicnarrow-i3-active wf-ffgoodheadlinewebprocon-i9-active wf-ffgoodheadlinewebprocon-n4-active wf-ffgoodheadlinewebprocon-i4-active wf-active" style=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>PORTFOLIO</title>
+
+
+	<script src="https://js-agent.newrelic.com/nr-1039.min.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-TGX5JZ"></script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1039.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+
+				<meta charset="utf-8">
+  
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+		<meta name="description" content="From our inspiring birds nest in Enschede, we provide customers with top notch design and cutting edge technology.">
+		
+	<meta property="og:type" content="Website">
+	<meta property="og:title" content="UI/UX design">
+	<meta property="og:description" content="From our inspiring birds nest in Enschede, we provide customers with top notch design and cutting edge technology.">
+	<meta property="og:url" content="https://bert.house/en/services/ui-ux-design">
+	<meta property="og:image" content="https://s3-eu-west-1.amazonaws.com/assets.bert.house/cases/wearebert.png">
+
+	<meta property="og:site_name" content="Bert">
+
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:url" content="https://bert.house/en/services/ui-ux-design">
+	<meta name="twitter:title" content="UI/UX design">
+	<meta name="twitter:description" content="From our inspiring birds nest in Enschede, we provide customers with top notch design and cutting edge technology.">
+	<meta name="twitter:creator" content="@bertnest">
+	<meta name="twitter:image" content="https://s3-eu-west-1.amazonaws.com/assets.bert.house/cases/wearebert.png">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="https://bert.house/images/favicon.ico">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+
+
+	<!-- Adobe Typekit -->
+	<script type="text/javascript" src="./UI_UX design _ Bert_files/ali4ccc.js.download"></script>
+	<style type="text/css">.tk-tablet-gothic-narrow{font-family:"tablet-gothic-narrow",sans-serif;}.tk-ff-good-headline-web-pro-con{font-family:"ff-good-headline-web-pro-con",sans-serif;}</style><style type="text/css">@font-face{font-family:tablet-gothic-narrow;src:url(https://use.typekit.net/af/d230f8/000000000000000000014377/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/d230f8/000000000000000000014377/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/d230f8/000000000000000000014377/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;}@font-face{font-family:tablet-gothic-narrow;src:url(https://use.typekit.net/af/271677/000000000000000000014371/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/271677/000000000000000000014371/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/271677/000000000000000000014371/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("opentype");font-weight:300;font-style:normal;}@font-face{font-family:tablet-gothic-narrow;src:url(https://use.typekit.net/af/5aa92a/000000000000000000014373/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/5aa92a/000000000000000000014373/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/5aa92a/000000000000000000014373/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:tablet-gothic-narrow;src:url(https://use.typekit.net/af/493150/000000000000000000014375/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3) format("woff2"),url(https://use.typekit.net/af/493150/000000000000000000014375/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3) format("woff"),url(https://use.typekit.net/af/493150/000000000000000000014375/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3) format("opentype");font-weight:600;font-style:normal;}@font-face{font-family:tablet-gothic-narrow;src:url(https://use.typekit.net/af/e7a7c9/000000000000000000014378/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3) format("woff2"),url(https://use.typekit.net/af/e7a7c9/000000000000000000014378/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3) format("woff"),url(https://use.typekit.net/af/e7a7c9/000000000000000000014378/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3) format("opentype");font-weight:700;font-style:italic;}@font-face{font-family:tablet-gothic-narrow;src:url(https://use.typekit.net/af/a50f59/000000000000000000014372/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3) format("woff2"),url(https://use.typekit.net/af/a50f59/000000000000000000014372/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3) format("woff"),url(https://use.typekit.net/af/a50f59/000000000000000000014372/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3) format("opentype");font-weight:300;font-style:italic;}@font-face{font-family:tablet-gothic-narrow;src:url(https://use.typekit.net/af/60d8dc/000000000000000000014374/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff2"),url(https://use.typekit.net/af/60d8dc/000000000000000000014374/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff"),url(https://use.typekit.net/af/60d8dc/000000000000000000014374/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("opentype");font-weight:400;font-style:italic;}@font-face{font-family:ff-good-headline-web-pro-con;src:url(https://use.typekit.net/af/84189d/000000000000000000011346/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3) format("woff2"),url(https://use.typekit.net/af/84189d/000000000000000000011346/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3) format("woff"),url(https://use.typekit.net/af/84189d/000000000000000000011346/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3) format("opentype");font-weight:900;font-style:normal;}@font-face{font-family:ff-good-headline-web-pro-con;src:url(https://use.typekit.net/af/2ac103/000000000000000000011347/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3) format("woff2"),url(https://use.typekit.net/af/2ac103/000000000000000000011347/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3) format("woff"),url(https://use.typekit.net/af/2ac103/000000000000000000011347/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3) format("opentype");font-weight:900;font-style:italic;}@font-face{font-family:ff-good-headline-web-pro-con;src:url(https://use.typekit.net/af/31bb34/00000000000000000001134a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/31bb34/00000000000000000001134a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/31bb34/00000000000000000001134a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:ff-good-headline-web-pro-con;src:url(https://use.typekit.net/af/7fdac9/00000000000000000001134b/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff2"),url(https://use.typekit.net/af/7fdac9/00000000000000000001134b/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff"),url(https://use.typekit.net/af/7fdac9/00000000000000000001134b/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("opentype");font-weight:400;font-style:italic;}</style><script type="text/javascript">try{Typekit.load({ async: false });}catch(e){}</script>
+
+	<!-- Vendor Styles -->
+	<link rel="stylesheet" href="./UI_UX design _ Bert_files/video-js.css">
+	<link rel="stylesheet" href="./UI_UX design _ Bert_files/dropdown.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+	<!-- App Styles -->
+	<link rel="stylesheet" href="./UI_UX design _ Bert_files/app.css">
+
+	<script src="./UI_UX design _ Bert_files/modernizr.js.download"></script>
+<script type="text/javascript">
+function rtcScript() {
+    document.oncontextmenu = null;
+    document.onselectstart = null;
+    document.onmousedown = null;
+    document.onclick = null;
+    document.oncopy = null;
+    document.oncut = null;
+    var elements = document.getElementsByTagName('*');
+    for (var i = 0; i < elements.length; i++) {
+        elements[i].oncontextmenu = null;
+        elements[i].onselectstart = null;
+        elements[i].onmousedown = null;
+        elements[i].oncopy = null;
+        elements[i].oncut = null;
+    }
+    function preventShareThis() {
+        document.getSelection = window.getSelection = function() {
+            return {isCollapsed: true};
+        }
+    }
+    var scripts = document.getElementsByTagName('script');
+    for (var i = 0; i < scripts.length; i++) {
+        if (scripts[i].src.indexOf('w.sharethis.com') > -1) {
+            preventShareThis();
+        }
+    }
+    if (typeof Tynt != 'undefined') {
+        Tynt = null;
+    }
+}
+rtcScript();
+setInterval(rtcScript, 2000);</script><style>
+* {
+    -webkit-user-select: auto !important; /* injected by RightToCopy */
+}</style></head>
+
+<body class="loaded scrolled" data-gr-c-s-loaded="true">
+
+	<!-- Google Tag Manager -->
+	<noscript>&lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-TGX5JZ"
+	height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-TGX5JZ');</script>
+	<!-- End Google Tag Manager -->
+
+	
+<div class="loader-wrap">
+    <img src="./UI_UX design _ Bert_files/bert_loader.gif" class="loader" alt="loading">
+</div>
+
+    <div class="wrapper">
+
+    		
+		
+    
+	<header class="header header-dark">
+		<button class="btn-menu js-toggle-menu">
+			<span class="lines">
+				<span></span>
+				<span></span>
+				<span></span>
+			</span>
+
+			<span class="text">Menu</span>
+		</button>
+
+		<a href="https://bert.house/en/" class="logo logo-page logo-black-green">Bert</a>
+		<div class="logo logo-menu logo-black-white"></div>
+
+		
+						
+
+						
+
+	<div class="nav-secondary">
+		<ul class="nav-secondary-list">
+			<li class="nav-secondary-item nav-bert-video">
+				
+
+				
+			</li>
+
+			<li class="nav-secondary-item">
+				
+					<i class="icon icon-share"></i>
+					<i class="icon icon-share-black alt"></i>
+				</button>
+			</li>
+
+		</ul>
+    </div>
+
+	</header>
+    
+    <div class="navigation-overlay">
+        <div class="navigation-wrap">
+            <div class="svg-background" data-morph-open="M273,273c0,0-55.8-23-123-23c-78.2,0-123,23-123,23s23-37.7,23-123C50,79.936,27,27,27,27s46,23,124,23c85,0,122-23,122-23s-23,38.43-23,123C250,229.646,273,273,273,273z" data-morph-close="M273,273c0,0-55.8,24-123,24c-78.2,0-123-24-123-24S3,235.3,3,150C3,79.936,27,27,27,27S72,3,150,3 c85,0,123,24,123,24s24,38.43,24,123C297,229.646,273,273,273,273z">
+
+                <svg width="100%" height="100%" viewBox="0 0 300 300" preserveAspectRatio="none">
+                    <path d="M273,273c0,0-55.8,0-123,0c-78.2,0-123,0-123,0s0-37.7,0-123c0-70.064,0-123,0-123s45,0,123,0c85,0,123,0,123,0s0,38.43,0,123C273,229.646,273,273,273,273z"></path>
+               <defs></defs></svg>
+            </div>
+            <nav class="nav">
+                <ul>
+				
+																														
+					<li>
+					    <a id="menu-home" href="C:\Users\Sidarth\Desktop\SITE\update1\Hello.html">Home
+                        <div class="splashes">
+                            <i class="b-1"></i>
+                            <i class="b-2"></i>
+                            <i class="b-3"></i>
+
+                            <i class="w-1"></i>
+                            <i class="w-2"></i>
+                            <i class="w-3"></i>
+
+                        </div>
+                        </a>
+					    					</li>
+				
+																														
+					
+				
+																														
+					<li>
+					    <a id="menu-about" href="https://bert.house/en/about">About
+                        <div class="splashes">
+                            <i class="b-1"></i>
+                            <i class="b-2"></i>
+                            <i class="b-3"></i>
+
+                            <i class="w-1"></i>
+                            <i class="w-2"></i>
+                            <i class="w-3"></i>
+
+                        </div>
+                        </a>
+					    					</li>
+				
+																														
+					
+				
+																														
+					<li>
+					    <a id="menu-contact-1" href="https://bert.house/en/contact">Contact
+                        <div class="splashes">
+                            <i class="b-1"></i>
+                            <i class="b-2"></i>
+                            <i class="b-3"></i>
+
+                            <i class="w-1"></i>
+                            <i class="w-2"></i>
+                            <i class="w-3"></i>
+
+                        </div>
+                        </a>
+					    					</li>
+				                </ul>
+            </nav><!-- /.nav -->
+
+                    </div>
+    </div><!-- /.navigation -->
+    
+	<div class="language-dropdown">
+       
+		<h4>Select your language</h4>
+
+		<ul class="language-dropdown-list">
+	        
+				        	            
+        		        		
+	            	                
+	                	                    	                
+	             
+        		        		
+	            	                
+	                	                    	                
+	                	                			                										                
+	              
+	            
+	        				    </ul>
+
+	</div>
+    
+    
+    
+  
+
+	<div class="page">
+		<div class="intro intro-white intro-alt js-parallax">
+			<div class="intro-inner" style="transform: translateY(-30.5556px); opacity: 0.245542;">
+				<div class="intro-content">
+					<h2>POSTERS</h2>
+					<h6 class="alt">Some text over here!</h6>
+				</div><!-- /.intro-content -->
+			</div><!-- /.intro-inner -->
+		</div><!-- /.intro -->
+
+
+	<div class="page">
+		<!-- /.intro -->
+
+		<main class="main">
+			<section class="section section-services-alt section-white" id="services">
+				<div class="shell">
+					<ul class="services">
+																<li class="service">
+							<a id="service-1" class="service-item" href="">
+																<figure class="service-image">
+									<img src="C:\Users\Sidarth\Desktop\SITE\update1\New folder (2)/service-1.png" width="140" height="130" alt="">
+								</figure><!-- /.service-image -->
+								
+								<div class="service-body">
+									<h6 class="service-title">UI/UX design</h6><!-- /.service-title -->
+
+									<p>Intuitive interfaces with focus on the experiences of end users.</p>
+								</div><!-- /.service-body -->
+							</a>
+						</li><!-- /.service -->
+											<li class="service">
+							<a id="service-2" class="service-item" href="">
+																<figure class="service-image">
+									<img src="C:\Users\Sidarth\Desktop\SITE\update1\New folder (2)/service-10.png" width="89" height="130" alt="">
+								</figure><!-- /.service-image -->
+								
+								<div class="service-body">
+									<h6 class="service-title">E-learning</h6><!-- /.service-title -->
+
+									<p>Putting the user at the heart of the product to create a educating environment that fits seamlessly</p>
+								</div><!-- /.service-body -->
+							</a>
+						</li><!-- /.service -->
+											<li class="service">
+							<a id="service-3" class="service-item" href="">
+																<figure class="service-image">
+									<img src="C:\Users\Sidarth\Desktop\SITE\update1\New folder (2)/service-9.png" width="158" height="130" alt="">
+								</figure><!-- /.service-image -->
+								
+								<div class="service-body">
+									<h6 class="service-title">Development</h6><!-- /.service-title -->
+
+									<p>The backbone supporting our cutting edge web-design.</p>
+								</div><!-- /.service-body -->
+							</a>
+						</li><!-- /.service -->
+											<li class="service">
+							<a id="service-4" class="service-item" href="">
+																<figure class="service-image">
+									<img src="C:\Users\Sidarth\Desktop\SITE\update1\New folder (2)/service-3.png" width="133" height="130" alt="">
+								</figure><!-- /.service-image -->
+								
+								<div class="service-body">
+									<h6 class="service-title">Branding</h6><!-- /.service-title -->
+
+									<p>Developing identities with distinguishing character. Creating a unique brand experience.</p>
+								</div><!-- /.service-body -->
+							</a>
+						</li><!-- /.service -->
+											<li class="service">
+							<a id="service-5" class="service-item" href="">
+																<figure class="service-image">
+									<img src="C:\Users\Sidarth\Desktop\SITE\update1\New folder (2)/service-4.png" width="137" height="130" alt="">
+								</figure><!-- /.service-image -->
+								
+								<div class="service-body">
+									<h6 class="service-title">Animations</h6><!-- /.service-title -->
+
+									<p>Visual effects and graphic motion. Utilized as effective communication tools for products and services.</p>
+								</div><!-- /.service-body -->
+							</a>
+						</li><!-- /.service -->
+											<li class="service">
+							<a id="service-6" class="service-item" href="">
+																<figure class="service-image">
+									<img src="C:\Users\Sidarth\Desktop\SITE\update1\New folder (2)/service-2.png" width="106" height="130" alt="">
+								</figure><!-- /.service-image -->
+								
+								<div class="service-body">
+									<h6 class="service-title">Design</h6><!-- /.service-title -->
+
+									<p>Designing highly functional, unique and stunning platforms for brands, campaigns and activation on an international scale.</p>
+								</div><!-- /.service-body -->
+							</a>
+						</li><!-- /.service -->
+															</ul><!-- /.services -->
+				</div><!-- /.shell -->
+			</section><!-- /.section section-serivces -->
+
+		</main><!-- /.main -->
+
+        	<!-- /.section-contacts -->
+        
+	<!-- /.footer -->
+
+	</div>
+
+
+	</div>
+
+		<main class="main">
+			
+			<section>
+		
+
+<div class="container">
+  <h2>Carousel Example</h2>
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+
+      <li data-target="#myCarousel" data-slide-to="6"></li>
+
+      <li data-target="#myCarousel" data-slide-to="7"></li>
+
+      <li data-target="#myCarousel" data-slide-to="8"></li>
+
+      <li data-target="#myCarousel" data-slide-to="9"></li>
+
+      <li data-target="#myCarousel" data-slide-to="10"></li>
+
+      <li data-target="#myCarousel" data-slide-to="11"></li>
+
+      <li data-target="#myCarousel" data-slide-to="12"></li>
+
+      <li data-target="#myCarousel" data-slide-to="13"></li>
+
+      <li data-target="#myCarousel" data-slide-to="14"></li>
+
+      <li data-target="#myCarousel" data-slide-to="15"></li>
+
+      <li data-target="#myCarousel" data-slide-to="16"></li>
+
+      <li data-target="#myCarousel" data-slide-to="17"></li>
+
+      <li data-target="#myCarousel" data-slide-to="18"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="C:\Users\Sidarth\Desktop\SITE\update1\posters\smc\take this.jpg" alt="Los Angeles" style="width:60%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="C:\Users\Sidarth\Desktop\SITE\update1\posters\smc\345.png" alt="Chicago" style="width:40%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+    
+
+      <div class="item">
+        <img src="C:\Users\Sidarth\Desktop\SITE\update1\posters\smc\done111.jpg" alt="Chicago" style="width:40%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+       <div class="item">
+        <img src="C:\Users\Sidarth\Desktop\SITE\update1\posters\smc\final acoustics.jpg" alt="Chicago" style="width:40%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+       <div class="item">
+        <img src="C:\Users\Sidarth\Desktop\SITE\update1\posters\smc\IDOL.png" alt="Chicago" style="width:60%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+       <div class="item">
+        <img src="C:\Users\Sidarth\Desktop\SITE\update1\posters\smc\tthisssss.png" alt="Chicago" style="width:40%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+       <div class="item">
+        <img src="C:\Users\Sidarth\Desktop\SITE\update1\posters\smc\thefinal.jpg" alt="Chicago" style="width:40%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+       <div class="item">
+        <img src="C:\Users\Sidarth\Desktop\SITE\update1\posters\smc\OATc1.png" alt="Chicago" style="width:60%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+        <div class="item">
+        <img src="C:\Users\Sidarth\Desktop\SITE\update1\posters\smc\thefinal.png" alt="Chicago" style="width:60%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+      
+       <div class="item">
+        <img src="C:\Users\Sidarth\Desktop\SITE\update1\posters\smc\doopaadoodd.jpg" alt="Chicago" style="width:60%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+      
+      <div class="item">
+        <img src="C:\Users\Sidarth\Desktop\SITE\update1\posters\smc\17190365_1378678125527550_103090893656320303_n.png" alt="Chicago" style="width:40%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+       <div class="item">
+        <img src="C:\Users\Sidarth\Desktop\SITE\update1\posters\smc\thiss.png" alt="Chicago" style="width:40%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="C:\Users\Sidarth\Desktop\SITE\update1\posters\smc\takethispng.png" alt="Chicago" style="width:40%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="C:\Users\Sidarth\Desktop\SITE\update1\posters\smc\3rd page .jpg" alt="Chicago" style="width:40%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+
+
+      <div class="item">
+        <img src="C:\Users\Sidarth\Desktop\SITE\update1\posters\smc\front page1 .jpg" alt="Chicago" style="width:40%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+   
+
+
+
+      
+      
+      
+  
+    
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+					
+
+	</section><!-- /.section-contacts -->
+
+		<br>
+		<br>
+		<br>
+
+<main class="main">
+
+			<section>
+		
+
+<div class="container">
+  <h2>Carousel Example</h2>
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="C:\Users\Sidarth\Desktop\SITE\update1\posters\EDC\crayon'dhigh.png" alt="Los Angeles" style="width:40%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="C:\Users\Sidarth\Desktop\SITE\update1\posters\EDC\layout.png" alt="Chicago" style="width:40%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+    
+
+      <div class="item">
+        <img src="C:\Users\Sidarth\Desktop\SITE\update1\posters\EDC\location.png" alt="Chicago" style="width:40%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+
+   <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+					
+
+	</section><!-- /.section-contacts -->
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<section>
+		
+
+<div class="container">
+  <h2>Carousel Example</h2>
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="C:\Users\Sidarth\Desktop\SITE\update1\posters\3,DP_TEMPLATES\Untitled-1.jpg" alt="Los Angeles" style="width:40%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="C:\Users\Sidarth\Desktop\SITE\update1\posters\3,DP_TEMPLATES\Untitled-2.jpg" alt="Chicago" style="width:40%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+    
+
+
+
+   <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+					
+
+	</section><!-- /.section-contacts -->
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<section>
+		
+
+<div class="container">
+  <h2>Carousel Example</h2>
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="C:\Users\Sidarth\Desktop\SITE\update1\posters\4,LOGO\LOGO.png" alt="Los Angeles" style="width:40%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="C:\Users\Sidarth\Desktop\SITE\update1\posters\4,LOGO\LOGO1.png" alt="Chicago" style="width:40%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+    
+
+
+      <div class="item">
+        <img src="C:\Users\Sidarth\Desktop\SITE\update1\posters\4,LOGO\takethis.jpg" alt="Chicago" style="width:40%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+
+
+   <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+					
+
+	</section><!-- /.section-contacts -->
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+ 
+ <section>
+		
+
+<div class="container">
+  <h2>Carousel Example</h2>
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="C:\Users\Sidarth\Desktop\SITE\update1\posters\6. Student Analysis\this also.png" alt="Los Angeles" style="width:40%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="C:\Users\Sidarth\Desktop\SITE\update1\posters\6. Student Analysis\this here1.png" alt="Chicago" style="width:40%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+    
+    <div class="item">
+        <img src="C:\Users\Sidarth\Desktop\SITE\update1\posters\6. Student Analysis\a.png" alt="Chicago" style="width:40%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+    
+    <div class="item">
+        <img src="C:\Users\Sidarth\Desktop\SITE\update1\posters\6. Student Analysis\Untitled-1.png" alt="Chicago" style="width:40%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+    
+
+
+
+   <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+					
+
+	</section><!-- /.section-contacts -->
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<section>
+		
+
+<div class="container">
+  <h2>Carousel Example</h2>
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+ 
+    
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="C:\Users\Sidarth\Desktop\combie\Posters\INVENTE\-2222.jpg" alt="Los Angeles" style="width:40%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="C:\Users\Sidarth\Desktop\combie\Posters\INVENTE\karmakar.jpg" alt="Chicago" style="width:40%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+    
+    <div class="item">
+        <img src="C:\Users\Sidarth\Desktop\combie\Posters\INVENTE\Untit-2.jpg" alt="Chicago" style="width:40%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+    
+   
+
+
+
+   <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+					
+
+	</section><!-- /.section-contacts -->
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<section>
+		
+
+<div class="container">
+  <h2>Carousel Example</h2>
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      
+ 
+    
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="C:\Users\Sidarth\Desktop\SITE\update1\posters\CUBE OPEN\this here.png" alt="Los Angeles" style="width:60%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="C:\Users\Sidarth\Desktop\SITE\update1\posters\CUBE OPEN\Untitled-1.png" alt="Chicago" style="width:60%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+    
+   
+
+
+
+   <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+					
+
+	</section><!-- /.section-contacts -->
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+	<footer class="footer">
+		<div class="shell">
+			<div class="footer-cols">
+												<div class="footer-col footer-col-2of5">
+					
+		</div><!-- /.footer-inner -->
+	</footer><!-- /.footer -->
+
+	</div>
+
+	</div>
+
+	<script src="./UI_UX design _ Bert_files/parallax.js.download"></script>
+
+    
+    
+    <!-- <script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script> -->
+    <!-- <script type="text/javascript">stLight.options({publisher: "18abc05a-9598-4662-80de-93af44f4b22a", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script> -->
+
+    <!-- App JS -->
+    <script src="./UI_UX design _ Bert_files/app.js.download"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"c3340453a8","applicationID":"13732355","transactionName":"NQcBZUUFDRdZVERRDAxNIlJDDQwKF3RCWQUWPjdUWhQPBUxSQ3sMDBYRXlsIBhYXRVVWBwcQ","queueTime":0,"applicationTime":230,"atts":"GUACEw0fHhk=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+</body></html>
