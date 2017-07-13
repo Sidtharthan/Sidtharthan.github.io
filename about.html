@@ -90,7 +90,32 @@ rtcScript();
 setInterval(rtcScript, 2000);</script><style>
 * {
     -webkit-user-select: auto !important; /* injected by RightToCopy */
-}</style></head>
+}</style>
+    
+    
+    @width: 450px;
+@height: 250px;
+
+.carousel {
+  width: @width;
+  height: @height;
+
+  .item {
+    overflow: hidden;
+
+    img {
+      height: 100%;
+      max-width: none;
+      left: 50%;
+      position: relative;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+    }
+  }
+}
+    
+    
+    </head>
 
 <body class="loaded scrolled" data-gr-c-s-loaded="true">
 
@@ -300,7 +325,7 @@ setInterval(rtcScript, 2000);</script><style>
       </div>
     
 
-      <div class="item">
+      <div class="item" >
         <img src="posters\smc\done111.jpg" alt="Chicago" style="width:40%;">
         <div class="carousel-caption">
           <h3></h3>
